@@ -44,19 +44,21 @@ body {
   padding: 50px 20px;
   gap: 20px;
   background-color: #000;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .Text-Headline {
-  font-size: 32px;
-  font-weight: 600;
-  margin-bottom: 15px;
+  font-size: 27px;
+  font-weight: 500;
+
 }
 
 .Text-Paragraph {
   font-size: 20px;
   font-weight: 300;
   line-height: 1.8;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
  
 }
 
@@ -66,14 +68,14 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 
 .View-Project-Button {
   padding: 17px 60px;
-  background-color: #ff0000;
+  background-color: transparent;
   color: #fff;
-  border: none;
+  border: 2px solid #fff;
   border-radius: 30px;
   cursor: pointer;
   font-size: 16px;
@@ -85,11 +87,13 @@ body {
   color: #ff0000;
 }
 
+
+
 .Work-With-Me-Button {
-  padding: 17px 60px;
-  background-color: transparent;
+padding: 17px 60px;
+  background-color: #ff0000;
   color: #fff;
-  border: 2px solid #fff;
+  border: none;
   border-radius: 30px;
   cursor: pointer;
   font-size: 16px;
@@ -124,7 +128,7 @@ body {
 
 .About-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 50px;
   align-items: center;
   justify-items: center;
@@ -133,20 +137,143 @@ body {
 }
 
 .about-me-headline {
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .about-me-paragraph {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 300;
-  line-height: 1.8;
+  line-height: 1.4;
 }
 
 .About-video iframe {
   width: 100%;
   aspect-ratio: 16/9;
   border-radius: 10px;
+  margin-top:  10px;
+}
+.about-me-button{
+   padding: 17px 60px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+.video-container {
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16/9;
+  margin-top: 20px;
+}
+
+.projects-wrapper {
+  width: 80%;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.projects-headline {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  width: 100%;
+  max-width: 500px;
+  aspect-ratio: 16/9;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.project-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* fills card nicely */
+  display: block;
+}
+
+.button-container {
+  margin-top: 40px;
+}
+
+.View-Project-Button-project{
+  padding: 17px 60px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s
+}
+
+.View-Project-Button-project:hover {
+  background-color: #fff;
+  color: #000;
+}
+.view-project-button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+/* sercices css */
+
+.Services-container{
+ background-color: #EFEEEA;
+}
+
+.Services {
+ 
+  color: #000;
+  padding: 80px 20px;
+  width: 80%;
+  margin: auto;
+}
+.services-headline {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #000;
+  text-align: center;
+}
+
+.service-card{
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 35px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+.service-title {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.service-description {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.6;
 }

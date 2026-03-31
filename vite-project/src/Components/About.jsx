@@ -4,11 +4,12 @@ export const About = ()=> {
 
 
     return(
-        <div className="About">
-        <div className="About-container">
-            <div className="">
-                <h1 className="about-me-headline">About Me</h1>
+        <div className="About" id="about">
+            <div>
+            <h1 className="about-me-headline">About Me</h1>
             </div>
+            <div className="About-container">
+           
             <div>
                 <p className="about-me-paragraph"> 
                     I’m a passionate video editor helping creators,<br />
@@ -20,7 +21,9 @@ export const About = ()=> {
                 <div className="">
                     <button className="about-me-button">Work with me</button>
                 </div>
-                <div className="video">
+            </div>
+
+             <div className="video">
                     <iframe
                         width="560"
                         height="315"
@@ -31,7 +34,6 @@ export const About = ()=> {
                         allowFullScreen
                     ></iframe>
                 </div>
-            </div>
             
         </div>
         </div>

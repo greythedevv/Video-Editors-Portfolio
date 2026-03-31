@@ -23,11 +23,14 @@ export const Home = () =>{
             </div>
             </div>
             </div>
-            <div className="button-container"> // New div for button container
-            <div className="VPButtton">//view project button
-                <button className="View-Project-Button" onClick={toggleClick}>{clicked ? "Clicked ✅" : "Click Me"}</button>
+            {/* New div for button container */}
+            <div className="button-container"> 
+                {/* view project button */}
+            <div className="VPButtton">
+                <button className="View-Project-Button" >View my project</button>
             </div>
-            <div className="WWMButton"> //work with me button
+            {/* work with me button */}
+            <div className="WWMButton"> 
                 <button className="Work-With-Me-Button">Work With Me</button>
             </div>
             </div>
