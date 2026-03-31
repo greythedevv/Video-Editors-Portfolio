@@ -324,7 +324,7 @@ padding: 17px 60px;
 }
 .pricing-headline {
   text-align: center;
-  font-size: 36px;
+  font-size: 40px;
   margin-bottom: 40px;
 }
 .pricing{
@@ -384,4 +384,64 @@ padding: 17px 60px;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+}
+
+.review-card{
+  background-color: #111;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+.reviewer-image{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.reviewer-name{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.review-stars{
+  color: #ff0000;
+  margin-bottom: 15px;
+}
+.reviewer-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.review-text{
+  font-size: 16px;
+  color: #ccc;
+  text-align: left;
+
+}
+.reviews-container{
+display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.reviews-headline {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+.footer-container{
+  background-color: #222222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
 }

@@ -8,6 +8,8 @@ import { Projects } from './Components/Projects'
 import {Services} from './Components/Services'
 import { FAQ } from './Components/faq'
 import { Pricing } from './Components/pricing'
+import { Reviews } from './Components/reviews'
+import { Footer } from './Components/footer'
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
      <Services/>
       <FAQ/>
       <Pricing/>
+      <Reviews/>
+      <Footer/>
     </VOPProvider>
     </WWMProvider>
     </>
