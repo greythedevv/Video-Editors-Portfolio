@@ -7,6 +7,7 @@ import {About} from './Components/About'
 import { Projects } from './Components/Projects'
 import {Services} from './Components/Services'
 import { FAQ } from './Components/faq'
+import { Pricing } from './Components/pricing'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
      <Projects/>
      <Services/>
       <FAQ/>
+      <Pricing/>
     </VOPProvider>
     </WWMProvider>
     </>
