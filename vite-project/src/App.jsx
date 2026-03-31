@@ -6,6 +6,7 @@ import { VOPProvider } from './Context/view our project'
 import {About} from './Components/About'
 import { Projects } from './Components/Projects'
 import {Services} from './Components/Services'
+import { FAQ } from './Components/faq'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
      <About/>
      <Projects/>
      <Services/>
+      <FAQ/>
     </VOPProvider>
     </WWMProvider>
     </>
