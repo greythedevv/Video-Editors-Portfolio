@@ -21,6 +21,7 @@ body {
 .Navbar-container .logo {
   font-size: 24px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .Navbar-link a {
@@ -49,8 +50,9 @@ body {
 }
 
 .Text-Headline {
-  font-size: 27px;
-  font-weight: 500;
+  font-size: 23px;
+  font-weight: 400;
+   font: 'Manrope', sans-serif;
 
 }
 
@@ -58,10 +60,9 @@ body {
   font-size: 20px;
   font-weight: 300;
   line-height: 1.8;
-  margin-bottom: 15px;
+   margin: 0;
  
 }
-
 
 .button-container {
   display: flex;
@@ -69,6 +70,7 @@ body {
   align-items: center;
   gap: 10px;
   margin-bottom: 70px;
+  
 }
 
 .View-Project-Button {
@@ -105,6 +107,12 @@ padding: 17px 60px;
   color: #ff0000;
 }
 
+.video{
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 10px #0000;
+}
+
 /* Video Embed */
 .video-container {
   width: 100%;
@@ -116,7 +124,7 @@ padding: 17px 60px;
 .video-container iframe {
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 /* About Section */
@@ -127,9 +135,9 @@ padding: 17px 60px;
 }
 
 .About-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 50px;
+  display: flex;
+
+  gap: 20px;
   align-items: center;
   justify-items: center;
   width: 80%;
@@ -137,10 +145,11 @@ padding: 17px 60px;
 }
 
 .about-me-headline {
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 50px;
+  font-weight: 500;
   margin-bottom: 20px;
   text-align: center;
+  font: 'Manrope', sans-serif;
 }
 
 .about-me-paragraph {
@@ -152,8 +161,9 @@ padding: 17px 60px;
 .About-video iframe {
   width: 100%;
   aspect-ratio: 16/9;
-  border-radius: 10px;
+  border-radius: 10px #0000;
   margin-top:  10px;
+ 
 }
 .about-me-button{
    padding: 17px 60px;
@@ -436,6 +446,7 @@ display: flex;
   font-size: 40px;
   margin-bottom: 50px;
   margin-top: 70px;
+  font-weight: 500;
 }
 
 .footer-container{
@@ -444,4 +455,31 @@ display: flex;
   text-align: center;
   padding: 20px;
   margin-top: 60px;
+}
+.contact-me-button{
+  padding: 17px 60px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  margin-bottom: 40px;
+}
+.footer-subheadline{
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.footer-headline{
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.hr{
+  border: none;
+  border-top: 1px solid #333;
+  margin: 20px auto;
+  width: 80%;
 }

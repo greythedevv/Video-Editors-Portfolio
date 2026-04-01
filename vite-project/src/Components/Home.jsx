@@ -2,11 +2,12 @@ import { useContext } from "react"
 import { VOWButton } from "../Context/view our project"
 
 
+
 export const Home = () =>{
     const {clicked, toggleClick} = useContext(VOWButton)
 
     return(
-        <div>
+        <div id="home"> 
         <div className="Home-container">
             <div className="Text-Headline">
                 <h1>Scroll-Stopping Short-Form Edits <br />

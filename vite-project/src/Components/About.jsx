@@ -23,11 +23,11 @@ export const About = ()=> {
                 </div>
             </div>
 
-             <div className="video">
+             <div className="">
                     <iframe
                         width="560"
-                        height="315"
-                        src="https://youtu.be/F1KsjN1eNV8?si=AxeDY9PUrCQAG0Qq"
+                        height="415"
+                        src= "https://www.youtube.com/embed/dQw4w9WgXcQ"
                         title="YouTube video player"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
