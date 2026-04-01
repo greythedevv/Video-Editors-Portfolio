@@ -1,10 +1,9 @@
 import { useContext } from "react"
-import { VOWButton } from "../Context/view our project"
 
 
 
 export const Home = () =>{
-    const {clicked, toggleClick} = useContext(VOWButton)
+    
 
     return(
         <div id="home"> 
@@ -28,11 +27,11 @@ export const Home = () =>{
             <div className="button-container"> 
                 {/* view project button */}
             <div className="VPButtton">
-                <button className="View-Project-Button" >View my project</button>
+                <a href="#projects"> <button className="View-Project-Button">View my project</button></a>
             </div>
             {/* work with me button */}
             <div className="WWMButton"> 
-                <button className="Work-With-Me-Button">Work With Me</button>
+                <button className="Work-With-Me-Button" onClick={()=> window.location.href="mailto:workwithgreystudio@gmail.com"}>Work With Me</button>
             </div>
             </div>
             </div>

@@ -6,7 +6,7 @@ export const About = ()=> {
     return(
         <div className="About" id="about">
             <div>
-            <h1 className="about-me-headline">About Me</h1>
+            <h2 className="about-me-headline">About Me</h2 >
             </div>
             <div className="About-container">
            
@@ -19,7 +19,7 @@ export const About = ()=> {
                     polished content that connects with audiences.
                 </p>
                 <div className="">
-                    <button className="about-me-button">Work with me</button>
+                    <a href="#contact"> <button className="about-me-button">Contact Me</button></a>
                 </div>
             </div>
 

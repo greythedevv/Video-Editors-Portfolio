@@ -483,3 +483,33 @@ display: flex;
   margin: 20px auto;
   width: 80%;
 }
+.single-edit-add-to-cart{
+  padding: 10px 20px;  
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;   
+}
+.monthly-sub-add-to-cart{
+  padding: 10px 20px;  
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.contact-me-pricing{
+  padding: 17px 60px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}

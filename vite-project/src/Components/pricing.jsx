@@ -10,7 +10,7 @@ export const Pricing = () =>{
                         A single short or long form video edit
                     </p>
                     <p className="pricing-card-price">$150 per video</p>
-                    <button>Add to cart</button>
+                    <button className="single-edit-add-to-cart">Add to cart</button>
                     <ul>
                         <li>One fully-edited video (short or long-form)</li>
                         <li>Fast 3–5 day turnaround</li>
@@ -29,7 +29,7 @@ export const Pricing = () =>{
                        Growing brands aiming for post regularly
                     </p>
                     <p className="pricing-card-price">$300 per month</p>
-                    <button>Add to cart</button>
+                    <button className="monthly-sub-add-to-cart">Add to cart</button>
                     <ul>
                         <li>Unlimited video edits</li>
                         <li>Unlimited revisions</li>
@@ -48,6 +48,7 @@ export const Pricing = () =>{
                        Let's figure out what you need and create a custom package that works for you.
                     </p>
                     <p className="pricing-card-price">Contact us for a quote</p>
+                    <button className="contact-me-pricing" onClick={()=>window.location.href="mailto:workwithgreystudio@gmail.com"}>contact me</button>
                 </div>
             </div>
         </div>

@@ -27,7 +27,8 @@ return(
         
         </div>
         <div className="view-project-button-container"> 
-            <button className="View-Project-Button-project"> View my project</button>
+            <a href="#projects"><button className="View-Project-Button-project"> View my project</button></a>
+            
         </div>
     </div>
 )

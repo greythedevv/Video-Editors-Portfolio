@@ -7,7 +7,8 @@ export const Footer = () => {
             <div className="footer">
                 <h1 className="footer-headline">Ready to make your videos go viral?</h1>
                 <p className="footer-subheadline">Ready to elevate your content? Contact me today to discuss your project and how I can help bring your vision to life.</p>
-                <button className="contact-me-button">Contact Me</button>
+                <a href="mailto:workwithgreystudio@gmail.com">
+                <button className="contact-me-button">Contact Me</button></a>
             </div>
             <hr className="hr"/>
             <div>
