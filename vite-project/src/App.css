@@ -1027,6 +1027,10 @@ body {
 /* Make navbar relative so dropdown positions correctly */
 .Navbar-container {
   position: relative;
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
 }
 
 @media (max-width: 768px) {
@@ -1042,9 +1046,64 @@ body {
     display: flex;
   }
 }
-.Navbar-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
+.checkout-container{
+  max-width: 80%;
+  margin: 60px auto;
+  
+}
+  
+.checkout-headline{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #fff;
+  text-align: center;
+}
+.chectout-paragraph{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+.checkout-item-name{
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.checkout-item-price{
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.remove-button{
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;   
+}
+.remove-button:hover{
+  background-color: #fff;
+  color: #ff0000;
+}
+.total-price{
+  font-size: 30px;   
+  font-weight: bold;
+  margin-top: 20px;
+}
+.checkout{    
+  padding: 17px 60px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;   
+}
+.checkout:hover{
+  background-color: #fff;
+  color: #ff0000;
 }

@@ -1,4 +1,4 @@
-
+import{ Link } from "react-router-dom";
 
 export const Footer = () => {
 
@@ -19,11 +19,11 @@ export const Footer = () => {
             </div >
             <div className="footer-second">
             <div className="Navbar-link">
-            <a href="#home">Home</a>
+      <Link to="/" onClick={() => window.scrollTo(0, 0)}> Home </Link>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
-            <a href="#contact">Checkout</a>
+          <Link to="/checkout">Checkout</Link>
 
             </div>
          </div>

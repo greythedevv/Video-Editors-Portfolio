@@ -1,4 +1,31 @@
+import { useContext } from "react"
+import { CartContext } from "../Context/cardcontext"
+import { useNavigate } from "react-router-dom";
+
+
 export const Pricing = () =>{
+
+    const { addToCart } = useContext(CartContext);
+    const navigate = useNavigate();
+
+    const product = [{
+        name: "Single edit",
+        price: 150
+    },
+    
+    {
+        name: "Monthly subscription",
+        price: 300
+    }
+
+    
+]
+
+const handleBuyNow = () => {
+    
+    navigate("/checkout"); 
+  };
+
     return(
         <div className="pricing">
         <div className="pricing-container">
@@ -10,7 +37,8 @@ export const Pricing = () =>{
                         A single short or long form video edit
                     </p>
                     <p className="pricing-card-price">$150 per video</p>
-                    <button className="single-edit-add-to-cart">Add to cart</button>
+                    <button className="single-edit-add-to-cart" onClick={()=> addToCart(product[0])}>Add to cart</button>
+                    <button className="single-edit-add-to-cart" onClick={() => handleBuyNow()}>Buy Now</button>
                     <ul>
                         <li>One fully-edited video (short or long-form)</li>
                         <li>Fast 3–5 day turnaround</li>
@@ -29,7 +57,8 @@ export const Pricing = () =>{
                        Growing brands aiming for post regularly
                     </p>
                     <p className="pricing-card-price">$300 per month</p>
-                    <button className="monthly-sub-add-to-cart">Add to cart</button>
+                    <button className="monthly-sub-add-to-cart"  onClick={()=> addToCart(product[1])}>Add to cart</button>
+                    <button className="monthly-sub-add-to-cart" onClick={() => handleBuyNow()}>Buy Now</button>
                     <ul>
                         <li>Unlimited video edits</li>
                         <li>Unlimited revisions</li>
@@ -54,4 +83,4 @@ export const Pricing = () =>{
         </div>
         </div>
     )
-}
+} 
