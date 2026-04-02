@@ -23,7 +23,7 @@ export const About = ()=> {
                 </div>
             </div>
 
-             <div className="">
+             <div className="about-me-video">
                     <iframe
                         width="560"
                         height="415"

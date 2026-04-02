@@ -167,13 +167,23 @@ body {
   line-height: 1.4;
 }
 
-.About-video iframe {
+
+.about-me-video {
+  width: 70%;
   max-width: 100%;
   aspect-ratio: 16/9;
-  border-radius: 10px #0000;
+  border-radius: 10px;
   margin-top: 10px;
+  overflow: hidden;
 }
 
+.about-me-video iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: none;
+  border-radius: 10px;
+}
 .about-me-button {
   padding: 17px 60px;
   background-color: #ff0000;
