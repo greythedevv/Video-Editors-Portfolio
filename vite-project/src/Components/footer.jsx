@@ -12,13 +12,13 @@ export const Footer = () => {
             </div>
             <hr className="hr"/>
             <div>
-            <div className="Navbar-container">
+            <div className="Navbar-container1">
             <div className="Navbar-logo">
                
              <h1>Grey Studio</h1>
             </div >
             <div className="footer-second">
-            <div className="Navbar-link">
+            <div className="footer-links">
       <Link to="/" onClick={() => window.scrollTo(0, 0)}> Home </Link>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
