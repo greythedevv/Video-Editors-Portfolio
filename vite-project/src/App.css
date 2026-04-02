@@ -29,8 +29,14 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  width: 90%;
-  margin: auto;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  z-index: 9999;
+  background-color: black;
 }
 
 .Navbar-container .logo {
